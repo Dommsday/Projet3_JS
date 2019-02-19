@@ -1,0 +1,270 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.button {
+    background-color: #1cb4bd;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+
+/*Partie Header
+=======================*/
+
+header {
+    background-color: #020f29;
+    height: 160px;
+    text-align: center;
+}
+
+.container-header {
+    display: flex;
+}
+
+.logo img {
+    margin-top: 25px;
+    margin-left: 65px;
+    border-radius: 50px;
+}
+
+header h1 {
+    font-size: 4em;
+    color: #ffffff;
+    margin-right: 18%;
+    margin-top: 4%;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: "Limelight", sans-serif;
+}
+
+/*Fin Partie Header
+=======================*/
+
+/*Partie Slider
+=======================*/
+
+#slider {
+    height: 600px;
+    background-color: #020f29;
+    position: relative;
+}
+
+.container_items {
+    height: 500px;
+    padding-top: 2%;
+    position: relative;
+}
+
+.item_slider {
+    position: absolute;
+    height: 400px;
+    width: 86%;
+    background-color: #054d70;
+    border: 2px solid #b5ebf2;
+    left: 7%;
+    top: 7%;
+    border-radius: 3px;
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.item_content {
+    text-align: center;
+}
+
+.item_content h2 {
+    font-size: 3.2em;
+    color: #b5ebf2;
+    margin-bottom: 40px;
+}
+
+.item_content p {
+    color: #b5ebf2;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.item3 h2,
+.item4 h2 {
+    margin-bottom: 5%;
+}
+
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button_left,
+.button_right {
+    position: absolute;
+    top: 30%;
+    z-index: 99;
+    font-size: 45px;
+    color: #c0fafd;
+}
+
+.button_left {
+    left: 2%;
+}
+
+.button_right {
+    right: 2%;
+}
+
+/*Fin Partie Slider
+=======================*/
+
+/*Section Google Map
+===========================*/
+
+#map_reservation {
+    display: flex;
+    position: relative;
+    background-color: #020f29;
+    height: 770px;
+}
+
+#map {
+    height: 75%;
+    width: 50%;
+    border: 4px solid #9cc2d0;
+    top: 10%;
+    left: 5%;
+    margin-bottom: 2%;
+}
+
+#info_reservation {
+    position: absolute;
+    border: 4px solid #000000;
+    border-radius: 18px;
+    right: 5%;
+    top: 10%;
+    width: 30%;
+    height: 75%;
+    background-color: #054d70;
+}
+
+#info_reservation h3 {
+    width: 95%;
+    text-transform: uppercase;
+    font-size: 2.3em;
+    text-align: center;
+    padding: 5px 0px;
+    border-left: 3px solid #9cc2d0;
+    color: #c0fafd;
+    background-color: #1b3753;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#info_reservation p {
+    width: 93%;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 5px 0px;
+    border-left: 3px solid #9cc2d0;
+    color: #c0fafd;
+    background-color: #1b3753;
+    margin: 20px auto;
+    padding-left: 10px;
+}
+
+#info_reservation .message {
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+/*Fin Section Google Map
+============================*/
+
+/*Réservation
+============================*/
+
+#reservation {
+    background-color: #020f29;
+    text-align: center;
+    height: 550px;
+    position: relative;
+    display: none;
+}
+
+.container-reservation {
+    position: relative;
+    height: 500px;
+}
+
+.canvas-text,
+.new-reservation-text {
+    position: absolute;
+    height: 200px;
+    margin-top: 7%;
+}
+
+#reservation p,
+#reservation .compteur {
+    color: #c0fafd;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+
+#reservation .new_reservation {
+    display: none;
+    color: red;
+}
+
+.canvas-button {
+    height: 500px;
+    position: relative;
+}
+
+.all-container {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    right: 8%;
+}
+
+#canvas {
+    background-color: #c0fafd;
+    border: 6px solid #000000;
+    right: 5%;
+    top: 10%;
+    position: absolute;
+}
+
+.container-button {
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    bottom: 20%;
+    right: 8%;
+}
+
+#valid_signature,
+#delete_signature,
+#delete_reservation {
+    position: absolute;
+    width: 30%;
+    bottom: 10%;
+}
+
+#valid_signature {
+    left: 10%;
+}
+
+#delete_signature {
+    right: -10%;
+}
+
+#delete_reservation {
+    right: 25%;
+    display: none;
+}
+
+/*Fin Réservation
+============================*/

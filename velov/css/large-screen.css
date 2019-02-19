@@ -1,0 +1,80 @@
+@media (max-width: 1199.98px) {
+
+    /*Partie Header
+    =======================*/
+    header h1 {
+        font-size: 3.6em;
+    }
+
+    /*Fin Partie Header
+    =======================*/
+    
+    
+    /*Partie Slider
+    =======================*/
+    .container_items {
+        position: absolute;
+        width: inherit;
+        height: 500px;
+        left: 0%;
+    }
+
+    .item_slider {
+        height: 400px;
+        width: 80%;
+        margin-left: 3%;
+    }
+
+    .item_content {
+        text-align: center;
+        margin-top: 2%
+    }
+
+    .item_content h2 {
+        font-size: 3.2em;
+        color: #b5ebf2;
+        margin-bottom: 15px;
+    }
+
+    .item_content p {
+        padding-right: 10px;
+        padding-left: 10px;
+        color: #b5ebf2;
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+
+    .item1 p,
+    .item4 p {
+        margin-top: 40px;
+    }
+
+    .item3 p {
+        margin-top: 65px;
+    }
+
+
+    /*Fin Partie Slider
+    =======================*/
+    
+    /*Section Google Map
+    ===========================*/
+    #map {
+        top: 4%;
+        left: 2%;
+    }
+
+    #info_reservation {
+        top: 4%;
+        width: 42%;
+        height: 76%;
+        right: 2%;
+    }
+
+
+    #info_reservation p {
+        font-size: 1.2em;
+    }
+    /*Fin Section Google Map
+    ===========================*/
+}

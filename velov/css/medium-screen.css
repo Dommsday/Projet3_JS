@@ -1,0 +1,109 @@
+@media (max-width: 991.98px) {
+
+    /*Partie Header
+    =======================*/
+    header h1 {
+        font-size: 3em;
+    }
+    /*Fin Partie Header
+    =======================*/
+    
+    /*Partie Slider
+    =======================*/
+    .item_slider {
+        height: 400px;
+        width: 75%;
+        margin-left: 5%;
+    }
+
+    .item_content p {
+        color: #b5ebf2;
+        font-size: 1.1em;
+        padding: 0px 10px;
+        margin-bottom: 20px;
+    }
+    /*Partie Slider
+    =======================*/
+    
+    /*Section Google Map
+    ===========================*/
+    #map_reservation {
+        height: 1000px;
+    }
+
+    #map {
+        height: 400px;
+        width: 100%;
+        top: 4%;
+        left: 0%;
+    }
+
+    #info_reservation {
+        top: 48%;
+        width: 90%;
+        height: 50%;
+        right: 5%;
+    }
+
+    #info_reservation h3 {
+        font-size: 3em;
+    }
+    /*Fin Section Google Map
+    ===========================*/
+    
+    /*Réservation
+    ============================*/
+    
+    #reservation{
+        height: 900px;
+    }
+    
+    .container-reservation{
+        height: 800px;
+        position: relative;
+    }
+    
+    .canvas-text {
+        margin-top: -70px;
+        height: 300px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .container-reservation .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .new_reservation {
+        position: absolute;
+        margin-top: -25%;
+        margin-right: 5%;
+    }
+    
+    .info_reservation{
+        position: absolute;
+        top: 40%;
+        left: 10%;
+    }
+    
+    .compteur{
+        position: absolute;
+        left: 25%;
+        bottom: 20%;
+    }
+    
+    .all-container {
+        right: 0%;
+    }
+
+    #canvas {
+        right: 35%;
+    }
+
+    .container-button {
+        right: 36%;
+    }
+    /* Fin Réservation
+    ============================*/
+}

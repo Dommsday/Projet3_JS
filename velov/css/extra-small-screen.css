@@ -1,0 +1,133 @@
+@media (max-width: 575.98px) {
+
+    /*Header
+    =====================*/
+    .container-big-title {
+        position: absolute;
+        bottom: 40%;
+        width: 96%;
+    }
+    /*Fin Header
+    =====================*/
+    /*Slider
+    =====================*/
+    .item_slider {
+        width: 70%;
+        margin-left: 8%;
+        height: 530px;
+    }
+
+    .item_content h2 {
+        font-size: 3em;
+        color: #b5ebf2;
+        margin-bottom: 20px;
+    }
+
+    .item_content p {
+        color: #b5ebf2;
+        font-size: 0.8em;
+        padding: 0px 10px;
+        margin-bottom: 20px;
+    }
+
+    .button_left,
+    .button_right {
+        top: 45%;
+        font-size: 18px;
+    }
+    
+    .button_left {
+        left: 1%;
+    }
+
+    .button_right {
+        right: 1%;
+    }
+    
+    /*Fin Slider
+    =====================*/
+    /*Google Map
+    ======================*/
+    #map_reservation {
+        display: flex;
+        flex-direction: column;
+        height: 1300px;
+    }
+
+
+    #info_reservation {
+        height: 50%;
+        margin-top: -80px;
+    }
+    /*Fin Google Map
+    =======================*/
+    /*Réservation
+    ======================*/
+    
+    #reservation{
+        height: 1000px;
+    }
+    
+    .canvas-text {
+        height: 500px;
+    }
+
+    .new_reservation {
+        margin-top: 95px;
+    }
+
+    #canvas {
+        left: 0%;
+    }
+
+    .container-button {
+        width: 300px;
+        height: 60px;
+        position: absolute;
+        bottom: 0%;
+        left: 1%;
+    }
+
+    #valid_signature,
+    #delete_signature,
+    #delete_reservation {
+        font-size: 12px;
+        width: 27%;
+    }
+
+    #valid_signature {
+        left: 10%;
+    }
+
+    #delete_reservation {
+        right: 33%;
+        display: none;
+    }
+
+    #delete_signature {
+        right: 4%;
+    }
+    
+    #reservation .new_reservation {
+        margin-top: -500px;
+        font-size: 2em;
+        margin-right: 5%;
+    }  
+    
+    .info_reservation{
+        top: 40%;
+        left: 0%;
+        padding: 10px;
+        font-size: 2em;
+    }
+    
+    .compteur{
+        left: 1%;
+        top: 90%;
+        font-size: 2em;
+    }
+
+
+    /*Fin Réservation
+    ======================*/
+}

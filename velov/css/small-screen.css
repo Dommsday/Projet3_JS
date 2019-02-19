@@ -1,0 +1,116 @@
+@media (max-width: 767.98px) {
+
+    /*Header
+    =================*/
+    header {
+        height: 400px;
+    }
+
+    .container-header {
+        height: 300px;
+        flex-direction: column;
+    }
+
+    .logo img {
+        margin-left: 0px;
+    }
+
+    .container-big-title {
+        position: absolute;
+        bottom: 40%;
+        width: 96%;
+    }
+
+    header h1 {
+        margin-right: 0%;
+    }
+    /*Fin Header
+    ========================*/
+    /*Slider
+    =========================*/
+    .item_slider {
+        width: 70%;
+        margin-left: 8%;
+        height: 500px;
+    }
+
+    .item_content p {
+        color: #b5ebf2;
+        font-size: 1.2em;
+        padding: 0px 10px;
+        margin-bottom: 20px;
+    }
+
+    .button_left,
+    .button_right {
+        position: absolute;
+        top: 30%;
+        z-index: 99;
+        font-size: 40px;
+        color: #c0fafd;
+    }
+
+    /*Fin Slider
+    ============================*/
+    
+    
+    /*Réservation
+    ============================*/
+    .compteur {
+        top: 10%;
+        left: 20%;
+    }
+
+    .info_reservation {
+        top: 20%;
+    }
+
+    .all-container {
+        height: 400px;
+    }
+
+    #canvas {
+        right: 27%;
+    }
+
+    .container-button {
+        top: 80%;
+        left: 23%;
+    }
+
+    #valid_signature,
+    #delete_signature,
+    #delete_reservation {
+        bottom: 0%;
+    }
+
+    #valid_signature {
+        left: 10%;
+    }
+
+    #delete_signature {
+        right: -12%;
+    }
+
+    #delete_reservation {
+        right: 24%;
+    }
+    
+    #reservation .new_reservation {
+        margin-top: -25%;
+        margin-right: 5%;
+    }    
+    
+    .info_reservation{
+        top: 40%;
+        left: 0%;
+        padding: 10px;
+    }
+    
+    .compteur{
+        left: 20%;
+        top: 90%;
+    }
+    /*Fin Réservation
+    ==============================*/
+}

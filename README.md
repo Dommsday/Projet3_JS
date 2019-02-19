@@ -1,2 +1,4 @@
 # Projet3_JS
-Carte Interactive de réservation de vélos
+Concevoir une carte interactive de location de vélos en JavaScript.
+
+
